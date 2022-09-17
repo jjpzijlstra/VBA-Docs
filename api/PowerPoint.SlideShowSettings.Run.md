@@ -42,7 +42,7 @@ This example starts a full-screen slide show of the active presentation, with sh
 ```vb
 With ActivePresentation.SlideShowSettings
 
-    .ShowType = ppShowSpeaker
+    .ShowType = ppShowTypeSpeaker
 
     .Run.View.AcceleratorsEnabled = False
 
